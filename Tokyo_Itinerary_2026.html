@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>云皓东京5天亲子行程 · 7月8日-12日</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Hiragino Sans GB", "Microsoft YaHei", "PingFang SC", sans-serif; background: #f5f7fa; color: #333; font-size: 14px; line-height: 1.6; }
+  .container { max-width: 860px; margin: 0 auto; padding: 24px 16px; }
+
+  .header { text-align: center; margin-bottom: 32px; }
+  .header h1 { font-size: 22px; color: #1a3a5c; margin-bottom: 6px; }
+  .header p { font-size: 13px; color: #777; }
+
+  .day-block { background: #fff; border-radius: 12px; margin-bottom: 20px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .day-title { padding: 12px 20px; color: #fff; font-size: 15px; font-weight: bold; display: flex; align-items: center; gap: 8px; }
+  .day-block:nth-child(2) .day-title { background: #4a90d9; }
+  .day-block:nth-child(3) .day-title { background: #e67e22; }
+  .day-block:nth-child(4) .day-title { background: #27ae60; }
+  .day-block:nth-child(5) .day-title { background: #8e44ad; }
+  .day-block:nth-child(6) .day-title { background: #c0392b; }
+  .day-block:nth-child(7) .day-title { background: #2c3e50; }
+
+  .day-subtitle { font-size: 12px; font-weight: normal; opacity: 0.85; margin-left: auto; }
+
+  table { width: 100%; border-collapse: collapse; }
+  td { padding: 10px 16px; border-bottom: 1px solid #eee; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .time-col { width: 54px; font-weight: bold; color: #4a90d9; font-size: 13px; white-space: nowrap; vertical-align: middle; }
+  .content-col { color: #333; }
+  .detail-col { color: #888; font-size: 12px; padding-top: 8px; }
+  .food-row { background: #fff9ee; }
+  .food-row td { color: #a05c00; }
+  .shopping-row { background: #f0f7ff; }
+  .shopping-row td { color: #1a5ca0; }
+
+  .section-label { display: inline-block; background: #e8f4fd; color: #1a5ca0; font-size: 11px; padding: 1px 7px; border-radius: 10px; margin-right: 4px; font-weight: normal; }
+  .food-label { background: #fef3e2; color: #a05c00; }
+  .shopping-label { background: #e8f4fd; color: #1a5ca0; }
+  .emoji { margin-right: 3px; }
+
+  .summary { background: #fff; border-radius: 12px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .summary h2 { font-size: 16px; color: #1a3a5c; margin-bottom: 12px; border-left: 4px solid #4a90d9; padding-left: 10px; }
+  .summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .summary-section h3 { font-size: 13px; color: #555; margin-bottom: 6px; }
+  .summary-section ul { list-style: none; padding: 0; }
+  .summary-section li { font-size: 12px; color: #666; padding: 2px 0; padding-left: 10px; position: relative; }
+  .summary-section li::before { content: "·"; position: absolute; left: 0; color: #4a90d9; }
+
+  .tips { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .tips h2 { font-size: 16px; color: #1a3a5c; margin-bottom: 12px; border-left: 4px solid #27ae60; padding-left: 10px; }
+  .tips ul { list-style: none; padding: 0; }
+  .tips li { font-size: 13px; color: #555; padding: 4px 0; padding-left: 16px; position: relative; }
+  .tips li::before { content: "⚠️"; position: absolute; left: 0; }
+
+  .food-page { background: #fff; border-radius: 12px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .food-page h2 { font-size: 16px; color: #1a3a5c; margin-bottom: 14px; border-left: 4px solid #e67e22; padding-left: 10px; }
+  .food-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .food-table th { background: #f0f4f8; color: #555; padding: 8px 12px; text-align: left; border-bottom: 2px solid #dde; }
+  .food-table td { padding: 8px 12px; border-bottom: 1px solid #eee; color: #444; }
+  .food-table tr:last-child td { border-bottom: none; }
+  .meal-tag { display: inline-block; background: #fef3e2; color: #a05c00; font-size: 11px; padding: 1px 6px; border-radius: 8px; margin-right: 4px; }
+
+  @media (max-width: 600px) {
+    .summary-grid { grid-template-columns: 1fr; }
+    .time-col { width: 42px; font-size: 12px; }
+    td { padding: 8px 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- 封面头 -->
+<div class="header">
+  <h1>🗾 云皓东京5天亲子行程</h1>
+  <p>7月8日 - 7月12日 &nbsp;|&nbsp; 一家三口（7岁女儿同行）&nbsp;|&nbsp; 凯悦东京湾 &nbsp;|&nbsp; 全日空</p>
+</div>
+
+<!-- ==================== DAY 0 ==================== -->
+<div class="day-block">
+  <div class="day-title">
+    📅 Day 0 &nbsp; 7月8日（周三）— 抵达日 · 台场半日游
+    <span class="day-subtitle">从凯悦东京湾出发 · 返回凯悦东京湾</span>
+  </div>
+  <table>
+    <tr>
+      <td class="time-col">上午</td>
+      <td class="content-col">✈️ <strong>全日空落地东京</strong></td>
+      <td class="detail-col">成田 / 羽田</td>
+    </tr>
+    <tr>
+      <td class="time-col">中午</td>
+      <td class="content-col">🏨 前往 <strong>凯悦东京湾</strong> 办理入住</td>
+      <td class="detail-col">🚌 酒店接驳巴士约50min（需预约）</td>
+    </tr>
+    <tr>
+      <td class="time-col">14:30</td>
+      <td class="content-col">🚕 出发前往 <strong>台场</strong></td>
+      <td class="detail-col">约35-50min车程</td>
+    </tr>
+    <tr>
+      <td class="time-col">15:30</td>
+      <td class="content-col">🌊 <strong>台场海滨公园</strong></td>
+      <td class="detail-col">🗽 自由女神像 + 彩虹桥绝佳机位</td>
+    </tr>
+    <tr>
+      <td class="time-col">16:10</td>
+      <td class="content-col">🎪 <strong>LEGOLAND Discovery Center</strong></td>
+      <td class="detail-col">海滨公园步行约10-15min，室内乐高乐园，女儿超爱</td>
+    </tr>
+    <tr>
+      <td class="time-col">17:40</td>
+      <td class="content-col">🏬 <strong>DiverCity 商场区域</strong></td>
+      <td class="detail-col">LEGOLAND 步行约8-12min，摩天轮外观打卡</td>
+    </tr>
+    <tr class="food-row">
+      <td class="time-col">18:20</td>
+      <td class="content-col">🍣 <strong>晚餐：回转寿司</strong></td>
+      <td class="detail-col">台场商场内或「海王」临海门店，传送带自选</td>
+    </tr>
+    <tr>
+      <td class="time-col">19:30</td>
+      <td class="content-col">🌃 台场海滨公园夜景散步</td>
+      <td class="detail-col">🌉 彩虹桥夜灯，超出片</td>
+    </tr>
+    <tr>
+      <td class="time-col">20:15</td>
+      <td class="content-col">🏨 返回 <strong>凯悦东京湾</strong></td>
+      <td class="detail-col">🚕 出租车约35-50min</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ==================== DAY 1 ==================== -->
+<div class="day-block">
+  <div class="day-title">
+    📅 Day 1 &nbsp; 7月9日（周四）— 迪士尼海洋 🌊
+    <span class="day-subtitle">从凯悦东京湾出发 · 返回凯悦东京湾</span>
+  </div>
+  <table>
+    <tr>
+      <td class="time-col">07:30</td>
+      <td class="content-col">🚕 出发前往 <strong>迪士尼海洋</strong></td>
+      <td class="detail-col">出租车约15-25min / 🚌 酒店接驳巴士约40min</td>
+    </tr>
+    <tr>
+      <td class="time-col">08:30</td>
+      <td class="content-col">🎫 入园</td>
+      <td class="detail-col">提前 Klook 购票 + DPA预约券</td>
+    </tr>
+    <tr>
+      <td class="time-col">上午</td>
+      <td class="content-col">🎢 冲热门项目</td>
+      <td class="detail-col">惊魂古塔 / 忿怒双神 / 地心探险，趁人少先刷</td>
+    </tr>
+    <tr class="food-row">
+      <td class="time-col">12:00</td>
+      <td class="content-col">🥡 <strong>午餐：猪排饭</strong></td>
+      <td class="detail-col">园区内各大街餐厅，节省时间</td>
+    </tr>
+    <tr>
+      <td class="time-col">下午</td>
+      <td class="content-col">🧜‍♀️ 继续游玩各区域</td>
+      <td class="detail-col">美人鱼礁湖 / 阿拉伯海岸 / 神秘沙漠 / 夺宝岛</td>
+    </tr>
+    <tr>
+      <td class="time-col">18:00</td>
+      <td class="content-col">🎆 花车巡游 / 占位等烟火</td>
+      <td class="detail-col">提前占好位置</td>
+    </tr>
+    <tr>
+      <td class="time-col">19:30</td>
+      <td class="content-col">🚶 出园，步行至「舞滨」站</td>
+      <td class="detail-col">约5min</td>
+    </tr>
+    <tr>
+      <td class="time-col">20:30</td>
+      <td class="content-col">🏨 抵达 <strong>凯悦东京湾</strong></td>
+      <td class="detail-col">🚌 酒店接驳巴士约40min</td>
+    </tr>
+    <tr class="food-row">
+      <td class="time-col">21:00</td>
+      <td class="content-col">🍢 <strong>夜宵：烧鸟「桥村」</strong></td>
+      <td class="detail-col">🚶 酒店附近步行10min，高评分烧鸟，暴走后的完美奖励</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ==================== DAY 2 ==================== -->
+<div class="day-block">
+  <div class="day-title">
+    📅 Day 2 &nbsp; 7月10日（周五）— 高尾山 + 吉祥寺 🏃
+    <span class="day-subtitle">从凯悦东京湾出发 · 返回凯悦东京湾</span>
+  </div>
+  <table>
+    <tr>
+      <td class="time-col">08:00</td>
+      <td class="content-col">🚇 出发前往 <strong>高尾山</strong></td>
+      <td class="detail-col">酒店 → 新宿约40min → 京王线「高尾山口」约50min，640円<br>📍 合计约1.5-2小时</td>
+    </tr>
+    <tr>
+      <td class="time-col">10:00</td>
+      <td class="content-col">🌿 <strong>高尾山登山</strong></td>
+      <td class="detail-col">🚠 缆车上山600円（5min）→ 杉林登山道约30min到山顶<br>女儿走不动可乘缆车，7月注意防晒+驱蚊</td>
+    </tr>
+    <tr class="food-row">
+      <td class="time-col">12:10</td>
+      <td class="content-col">🍤 <strong>午餐：天妇罗盖饭「tah Takahashi」</strong></td>
+      <td class="detail-col">🚶 步行3min，山脚下排队名店，天妇罗现炸，配山景绝了</td>
+    </tr>
+    <tr>
+      <td class="time-col">13:30</td>
+      <td class="content-col">🚇 前往 <strong>吉祥寺</strong></td>
+      <td class="detail-col">京王线「高尾山口」→「吉祥寺」约30-45min，320円</td>
+    </tr>
+    <tr>
+      <td class="time-col">14:30</td>
+      <td class="content-col">🖊️ <strong>吉祥寺商圈逛文具杂货</strong></td>
+      <td class="detail-col">🚶 东急Hands（车站东口4层文体专区）+ 口琴横丁杂货</td>
+    </tr>
+    <tr class="food-row">
+      <td class="time-col">15:40</td>
+      <td class="content-col">🧇 <strong>下午茶：可丽饼 / 芭菲</strong></td>
+      <td class="detail-col">🚶 口琴横丁步行约3min，边走边吃，女儿会喜欢</td>
+    </tr>
+    <tr>
+      <td class="time-col">16:30</td>
+      <td class="content-col">🚣 <strong>井之头公园</strong></td>
+      <td class="detail-col">🚶 步行约8min，天鹅船2500円/小时，家庭同乐</td>
+    </tr>
+    <tr class="food-row">
+      <td class="time-col">18:00</td>
+      <td class="content-col">🥘 <strong>晚餐：汤咖喱「Rojiura Curry Samurai」</strong></td>
+      <td class="detail-col">🚶 步行约5min，当地人排队名店，浓郁够劲</td>
+    </tr>
+    <tr>
+      <td class="time-col">19:30</td>
+      <td class="content-col">🏨 返回 <strong>凯悦东京湾</strong></td>
+      <td class="detail-col">🚇 JR中央线吉祥寺→新宿约20min → 换乘回bay约30min<br>📍 合计约60-80min</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ==================== DAY 3 ==================== -->
+<div class="day-block">
+  <div class="day-title">
+    📅 Day 3 &nbsp; 7月11日（周六）— 横滨一日游 🚢
+    <span class="day-subtitle">从凯悦东京湾出发 · 返回凯悦东京湾</span>
+  </div>
+  <table>
+    <tr>
+      <td class="time-col">08:30</td>
+      <td class="content-col">🚇 出发前往 <strong>横滨</strong></td>
+      <td class="detail-col">酒店 → 品川约30min → 东急东横线「品川」→「横滨」约30min，640円<br>📍 合计约60-75min</td>
+    </tr>
+    <tr>
+      <td class="time-col">10:00</td>
+      <td class="content-col">🌊 <strong>港未来 / 红砖仓库区域</strong></td>
+      <td class="detail-col">🚶 横滨站步行约15min，沿海滨步行道串联约1.5km</td>
+    </tr>
+    <tr>
+      <td class="time-col">11:00</td>
+      <td class="content-col">🎣 <strong>渔具店「钓鐘屋」</strong></td>
+      <td class="detail-col">🚶 红砖仓库步行约5min，日本知名渔具连锁，种类齐全</td>
+    </tr>
+    <tr class="food-row">
+      <td class="time-col">12:30</td>
+      <td class="content-col">🍱 <strong>午餐：鳗鱼饭「聘珍楼」</strong></td>
+      <td class="detail-col">🚇 关内/中华街方向约15-20min<br>横滨中华街入口，历史老店，和风鳗鱼料理</td>
+    </tr>
+    <tr>
+      <td class="time-col">13:40</td>
+      <td class="content-col">🚇 前往 <strong>横滨站西口商圈</strong></td>
+      <td class="detail-col">JR根岸线「关内」→「横滨」约7min / 🚶 步行约15-20min</td>
+    </tr>
+    <tr class="shopping-row">
+      <td class="time-col">14:10<br>-16:30</td>
+      <td class="content-col">🛍️ <strong>老婆专属购物时间</strong></td>
+      <td class="detail-col">📍 横滨站西口黄金购物三角，步行约5-10min可串联：<br>
+        · <strong>Donki 横滨站西口本店</strong>（药妆+日用+零食）<br>
+        · <strong>松本清 / Cocok</strong>（护肤品+药品）<br>
+        · <strong>Daiso / Seria</strong>（百元文具+杂物）<br>
+        · <strong>Tokyu Hands</strong>（文具+杂物）🖊️<br>
+        👨‍👩‍👧 老公带女儿可在商圈等候或附近散步</td>
+    </tr>
+    <tr class="food-row">
+      <td class="time-col">16:30</td>
+      <td class="content-col">🍰 <strong>下午茶：HARBS蛋糕</strong></td>
+      <td class="detail-col">🚶 横滨站/红砖仓库附近，招牌水果千层，治愈系甜点</td>
+    </tr>
+    <tr>
+      <td class="time-col">17:30</td>
+      <td class="content-col">🚶 步行前往晚餐地</td>
+      <td class="detail-col">横滨站西口步行约7min</td>
+    </tr>
+    <tr class="food-row">
+      <td class="time-col">18:00</td>
+      <td class="content-col">🥩 <strong>晚餐：寿喜烧「荒井屋」</strong></td>
+      <td class="detail-col">横滨站西口附近，百年老店，和牛入口即化</td>
+    </tr>
+    <tr>
+      <td class="time-col">19:30</td>
+      <td class="content-col">🏨 返回 <strong>凯悦东京湾</strong></td>
+      <td class="detail-col">🚇 东急东横线「横滨」→「品川」约30min → 换乘回bay约30min<br>📍 合计约60-75min</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ==================== DAY 4 ==================== -->
+<div class="day-block">
+  <div class="day-title">
+    📅 Day 4 &nbsp; 7月12日（周日）— 返程日
+    <span class="day-subtitle">从凯悦东京湾出发 · 前往机场</span>
+  </div>
+  <table>
+    <tr>
+      <td class="time-col">08:30</td>
+      <td class="content-col">🍳 酒店早餐 / 整理行李</td>
+      <td class="detail-col"></td>
+    </tr>
+    <tr>
+      <td class="time-col">09:30</td>
+      <td class="content-col">🚶 周边简单补货</td>
+      <td class="detail-col">便利店补给</td>
+    </tr>
+    <tr>
+      <td class="time-col">10:30</td>
+      <td class="content-col">🏨 退房，行李寄存</td>
+      <td class="detail-col">🚶 酒店前台 / ecbo cloak App</td>
+    </tr>
+    <tr class="food-row">
+      <td class="time-col">11:00</td>
+      <td class="content-col">🍜 <strong>午餐：拉面（一风堂 / 九州霸炼）</strong></td>
+      <td class="detail-col">🚶 酒店附近或品川站周边，完美收官</td>
+    </tr>
+    <tr>
+      <td class="time-col">12:00</td>
+      <td class="content-col">🚇 出发前往 <strong>机场</strong></td>
+      <td class="detail-col">视航班：品川→成田约60-90min（JR N'EX，3250円）<br>品川→羽田约30min（京急线，470円）</td>
+    </tr>
+    <tr>
+      <td class="time-col">下午</td>
+      <td class="content-col">✈️ <strong>全日空出发，返回上海</strong></td>
+      <td class="detail-col"></td>
+    </tr>
+  </table>
+</div>
+
+<!-- ==================== 美食总览 ==================== -->
+<div class="food-page">
+  <h2>🍽️ 美食打卡地图（最终版）</h2>
+  <table class="food-table">
+    <thead>
+      <tr>
+        <th>美食</th>
+        <th>时间</th>
+        <th>地点</th>
+        <th>餐次</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>🍣 回转寿司</td><td>Day 0</td><td>台场「海王」临海门店</td><td><span class="meal-tag">晚餐</span></td></tr>
+      <tr><td>🥡 猪排饭</td><td>Day 1</td><td>迪士尼海洋园区内</td><td><span class="meal-tag">午餐</span></td></tr>
+      <tr><td>🍢 烧鸟</td><td>Day 1</td><td>凯悦东京湾附近「桥村」</td><td><span class="meal-tag">夜宵</span></td></tr>
+      <tr><td>🍤 天妇罗盖饭</td><td>Day 2</td><td>高尾山脚下「tah Takahashi」</td><td><span class="meal-tag">午餐</span></td></tr>
+      <tr><td>🧇 可丽饼 / 芭菲</td><td>Day 2</td><td>吉祥寺口琴横丁</td><td><span class="meal-tag">下午茶</span></td></tr>
+      <tr><td>🥘 汤咖喱</td><td>Day 2</td><td>吉祥寺「Rojiura Curry Samurai」</td><td><span class="meal-tag">晚餐</span></td></tr>
+      <tr><td>🍱 鳗鱼饭</td><td>Day 3</td><td>横滨中华街「聘珍楼」</td><td><span class="meal-tag">午餐</span></td></tr>
+      <tr><td>🍰 HARBS蛋糕</td><td>Day 3</td><td>横滨红砖仓库 / 站附近</td><td><span class="meal-tag">下午茶</span></td></tr>
+      <tr><td>🥩 寿喜烧</td><td>Day 3</td><td>横滨「荒井屋」</td><td><span class="meal-tag">晚餐</span></td></tr>
+      <tr><td>🍜 拉面</td><td>Day 4</td><td>酒店附近 / 品川</td><td><span class="meal-tag">午餐</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== 交通 & 购物总览 ==================== -->
+<div class="summary">
+  <h2>🗺️ 交通 & 购物总览</h2>
+  <div class="summary-grid">
+    <div class="summary-section">
+      <h3>🚇 各日往返交通</h3>
+      <ul>
+        <li>Day 0 台场：去程约40-50min，回程约40-50min</li>
+        <li>Day 1 迪士尼：去程约20-40min，回程约20-40min</li>
+        <li>Day 2 高尾山+吉祥寺：去程约90-120min，回程约60-80min</li>
+        <li>Day 3 横滨：去程约60-75min，回程约60-75min</li>
+        <li>Day 4 机场：视航班约30-90min</li>
+      </ul>
+    </div>
+    <div class="summary-section">
+      <h3>🛍️ 购物攻略</h3>
+      <ul>
+        <li><strong>文具杂货</strong> → Day 2 吉祥寺（东急Hands / 口琴横丁）</li>
+        <li><strong>药妆</strong> → Day 3 横滨站西口（Donki / 松本清 / Cocok）</li>
+        <li><strong>百元店</strong> → Day 3 横滨站西口（Daiso / Seria）</li>
+        <li><strong>渔具</strong> → Day 3 横滨红砖仓库（钓鐘屋）</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== 出行提醒 ==================== -->
+<div class="tips">
+  <h2>⚠️ 出行提醒</h2>
+  <ul>
+    <li><strong>迪士尼门票</strong>：出发前在 Klook 购买门票 + DPA预约券，逆时针游玩，07:30前到入口</li>
+    <li><strong>西瓜卡（Suica）</strong>：全程通用，建议 iPhone 绑定，充值至少备5000円</li>
+    <li><strong>7月防晒</strong>：遮阳伞 + 防晒霜 + 扇子 + 足够饮用水</li>
+    <li><strong>带娃装备</strong>：推车/背包、备用衣服（玩水弄湿）、小朋友常用药</li>
+    <li><strong>行李寄存</strong>：Day 4 退房后可使用 ecbo cloak App 或酒店前台寄存</li>
+    <li><strong>高尾山</strong>：女儿走不动可乘缆车（600円/单程），山药泥荞麦面也是高尾名物</li>
+    <li><strong>酒店接驳巴士</strong>：迪士尼和台场建议提前向凯悦东京湾预约</li>
+  </ul>
+</div>
+
+</div>
+</body>
+</html>
